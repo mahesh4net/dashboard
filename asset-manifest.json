@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/dashboard/static/css/main.ea88f071.css",
+    "main.js": "/dashboard/static/js/main.986bbf76.js",
+    "static/js/453.5507ae5b.chunk.js": "/dashboard/static/js/453.5507ae5b.chunk.js",
+    "static/media/bitly_logo.svg": "/dashboard/static/media/bitly_logo.2c910627ae29eb622fe7d85f247b219a.svg",
+    "index.html": "/dashboard/index.html",
+    "main.ea88f071.css.map": "/dashboard/static/css/main.ea88f071.css.map",
+    "main.986bbf76.js.map": "/dashboard/static/js/main.986bbf76.js.map",
+    "453.5507ae5b.chunk.js.map": "/dashboard/static/js/453.5507ae5b.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ea88f071.css",
+    "static/js/main.986bbf76.js"
+  ]
+}
