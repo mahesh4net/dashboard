@@ -1,0 +1,436 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&display=swap');
+
+
+
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Nunito Sans';
+  box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(63, 64, 77);
+ max-width: 100vw;
+ overflow-x: hidden;
+}
+
+h1{
+  color: rgba(18, 16, 57, 0.818);
+  font-size: 3rem;
+}
+
+p{
+  color: rgba(0, 0, 0, 0.673);
+}
+
+
+.container{
+  padding: 1rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.186);
+  width: calc(33.33% - 0.7rem);
+  
+  background-color: rgb(255, 255, 255);
+}
+
+
+#root{
+  width: 100vw;
+ 
+}
+.stats-container{
+  margin-top: 2rem;
+   display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+
+}
+
+.nav-outer{
+  position: fixed;
+  top: 0;
+  z-index: 999;
+}
+.nav-container{
+ background-color: rgb(63, 64, 77);
+z-index: 100;
+  color: rgb(255, 255, 255);
+  padding: 2rem 3rem;
+  
+    display: flex;
+   justify-content: space-between;
+    align-items: center;
+    gap: 1.5rem;
+
+top: 0;
+width: 100vw;
+overflow: hidden;
+transition: background-color 0.1s linear, color 0.1s linear;
+font-weight: 500;
+}
+
+.nav-container p{
+  color: white;
+
+}
+.nav-container p:hover{
+  color: rgb(114, 177, 240);
+  cursor: pointer;
+}
+
+.nav-container a{
+  border: 2px solid rgb(118, 118, 255);
+  padding: 0.5rem 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+}
+
+.nav-container a:hover{
+  transform: scale(0.98);
+  border: 2px solid rgb(118, 118, 255);
+ background-color: rgb(118, 118, 255);
+ color: white;
+}
+
+.nav-container img{
+width: 4rem;
+height: auto;
+
+
+}
+
+.links-container{
+display: flex;
+width: 50%;
+gap: 1.5rem;
+justify-content: flex-end;
+align-items: center;
+}
+
+
+
+.fa-bars, .fa-xmark{
+  font-size: 1.5rem;
+  display: none;
+}
+
+.hide{
+display: none !important;
+}
+
+
+
+.menu-container{
+  position: relative;
+  width: 100%;
+  display: none;
+}
+
+.links-container-mo{
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+   background-color: rgb(63, 64, 77);
+   gap: 1rem;
+  color: black;
+  flex-direction: column;
+  padding: 3rem;
+}
+
+.links-container-mo p{
+  color: white;
+
+}
+.links-container-mo p:hover{
+  color: rgb(114, 177, 240);
+  cursor: pointer;
+}
+
+.links-container-mo a{
+  border: 2px solid rgb(118, 118, 255);
+  padding: 0.5rem 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: center;
+}
+
+
+.links-container-mo a:hover{
+  transform: scale(0.98);
+  border: 2px solid rgb(118, 118, 255);
+ background-color: rgb(118, 118, 255);
+ color: white;
+}
+
+.links-container-mo hr{
+  border-top: 2px solid white;
+  width: 100%;
+}
+
+
+.withdrawal-container{
+  margin-top: 8rem;
+  padding-block: 3rem;
+  padding-inline: 1rem;
+  border-radius: 0.5rem;
+  background-color: rgb(110, 150, 250);
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.186);
+
+}
+
+
+.withdrawal-container h1{
+  color: rgb(255, 255, 255);
+  font-size: 3rem;
+}
+
+.withdrawal-container h2{
+  color: rgba(255, 255, 255, 0.884);
+}
+
+.withdrawal-container a {
+  background-color: rgb(0, 0, 0);
+  padding: 0.5rem 2rem;
+  color: white;
+  text-decoration: none;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.withdrawal-container a:hover{
+  background-color: rgb(81, 81, 81);
+  transform: scale(0.98);
+}
+
+.outer-container{
+  padding-inline: 10%;
+  padding-bottom: 4rem;
+  
+}
+
+.stats-container p{
+  color: rgba(0, 0, 0, 0.568);
+  font-weight: 600;
+}
+
+.hrline{
+  margin-top: 2rem;
+  border: none;
+  color: rgb(255, 255, 255);
+  border-top: 5px solid rgba(255, 255, 255, 0.532);
+}
+
+.ex{
+  min-height: 1000px;
+background-color: aliceblue;
+}
+
+.scroll{
+  background-color: white;
+  color: black !important;
+}
+
+.scroll p, .scroll a{
+  color: black;
+}
+
+
+.history-container{
+  width: 100%;
+  padding: 1rem;
+  margin-block: 0.5rem;
+  background-color: white;
+  border-radius: 0.5rem;
+  color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+}
+
+.history-container h2{
+  width: 33.3%;
+}
+
+.history-container :nth-child(3){
+  text-align: right;
+}
+
+
+.analitycs{
+  color: white;
+  margin-top: 1rem;
+}
+
+
+.filter-container{
+  margin-top: 2rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 1.5rem;
+}
+
+.filter-container h2{
+padding: 0.6rem 1rem;
+background-color: white;
+
+border-radius: 0.5rem;
+}
+
+.filter-container h2:hover{
+  cursor: pointer;
+}
+
+.active-filter{
+  background-color: rgb(99, 99, 255) !important;
+  color: white;
+}
+
+
+.footer-container{
+  width: 100%;
+  padding-inline: 10%;
+  background-color: rgb(31, 31, 31);
+  padding-block: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  gap: 1rem;
+}
+
+.footer-container img{
+  width: 5rem;
+  height: auto;
+}
+
+.footer-container p{
+  color: white;
+}
+
+
+@media (min-width: 2500px){
+  :root{
+    font-size: 25px;
+
+  }
+
+  html {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 1300px){
+  :root{
+    font-size: 14px;
+
+  }
+
+  html {
+    font-size: 14px;
+  }
+}
+@media (max-width: 1024px){
+  :root{
+    font-size: 14px;
+
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  .container{
+    width: calc(50% - 0.7rem);
+    flex-grow: 1;
+  }
+}
+
+
+@media (max-width: 768px){
+  :root{
+    font-size: 13px;
+
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  .container{
+    width: 100%;
+    flex-grow: 1;
+  }
+
+  .outer-container{
+  padding-inline: 5%;
+  padding-bottom: 4rem;
+  
+}
+
+h1{
+  font-size: 2.5rem;
+}
+
+.links-container{
+  display: none;
+}
+
+.fa-bars{
+  display: block;
+}
+
+}
+
+
+
+@media (max-width: 768px){
+  :root{
+    font-size: 13px;
+
+  }
+
+  html {
+    font-size: 13px;
+  }
+
+  h1{
+    font-size: 2rem;
+  }
+
+  .withdrawal-container h1{
+    font-size: 2rem;
+  }
+
+  .withdrawal-container a{
+    font-size: 1.4rem;
+
+  }
+
+  .filter-container h2{
+font-size: 1.3rem !important;
+  }
+
+  .history-container h3{
+    font-size: 1.2rem;
+  }
+
+}
